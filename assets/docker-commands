@@ -1,0 +1,6 @@
+tasklist | findstr /I "Docker"
+taskkill /F /IM "Docker Desktop.exe"
+
+wsl --status
+wsl --list --verbose
+wsl --shutdown
